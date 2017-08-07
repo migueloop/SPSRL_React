@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
+import Game from './components/Game.jsx';
 
 class App extends Component {
+  constructor(){
+    super()
+  }
+
   render() {
     return (
-      <h1>Hello React :)</h1>
+      <Game/>
     );
   }
 }
